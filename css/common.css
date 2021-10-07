@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --primary-text-color: rgba(0, 0, 0, 0.8);
   --title-text-color: #000000;
   --accent-color: #18a0fb;
@@ -10,7 +10,7 @@
 /* белый цвет #FFFFFF  */
 /* цвет акцента, основной цвет выделения #18A0FB */
 /* вторичный цвет фона #F5F5F5; */
-
+/* 
 .page {
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
@@ -25,7 +25,7 @@
 }
 
 /* Site nav */
-.site-nav .link {
+/* .site-nav .link {
   color: var(--accent-color);
 }
 
@@ -36,4 +36,4 @@
 
 .site-nav .link.current {
   color: var(--title-text-color);
-}
+} */
