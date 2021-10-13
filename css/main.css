@@ -22,6 +22,14 @@ body {
   line-height: 1.67;
 }
 
+/* Утилиты */
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -51,9 +59,36 @@ body {
 .page-header {
 }
 
+/* Main nav */
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
 /* Site nav */
+.site-nav {
+  display: flex;
+  margin-left: 70px;
+}
+
+.site-nav .item {
+  /* background-color: tomato; */
+}
+
+.site-nav .item + .item {
+  margin-left: 40px;
+}
+
+/* .site-nav .item:not(:last-child) {
+  margin-right: 40px;
+} */
 
 .site-nav .link {
+  display: block;
+  padding-top: 21px;
+  padding-bottom: 21px;
+
   color: var(--accent-color);
 
   font-weight: 500;
@@ -71,10 +106,14 @@ body {
   color: var(--title-text-color);
 }
 
-.list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+/* Auth nav */
+.auth-nav {
+  display: flex;
+  margin-left: auto;
+}
+
+.auth-nav .item + .item {
+  margin-left: 12px;
 }
 
 /* Hero */
