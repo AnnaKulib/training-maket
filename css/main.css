@@ -169,7 +169,19 @@ body {
 }
 
 /* Features and Examples */
-.feature-list .title,
+
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -40px -75px;
+}
+
+.feature-list .item {
+  width: 625px;
+  margin: 40px 75px;
+}
+
+.feature-list .feature-list .title,
 .work-list .title {
   margin-top: 0;
   margin-bottom: 24px;
